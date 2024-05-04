@@ -1,0 +1,13 @@
+O:\Visual Studio\projects\InfosCEP\bin\Debug\InfosCEP.exe.config
+O:\Visual Studio\projects\InfosCEP\bin\Debug\InfosCEP.exe
+O:\Visual Studio\projects\InfosCEP\bin\Debug\InfosCEP.pdb
+O:\Visual Studio\projects\InfosCEP\obj\Debug\InfosCEP.csproj.AssemblyReference.cache
+O:\Visual Studio\projects\InfosCEP\obj\Debug\InfosCEP.Properties.Resources.resources
+O:\Visual Studio\projects\InfosCEP\obj\Debug\InfosCEP.csproj.GenerateResource.cache
+O:\Visual Studio\projects\InfosCEP\obj\Debug\InfosCEP.csproj.CoreCompileInputs.cache
+O:\Visual Studio\projects\InfosCEP\obj\Debug\InfosCEP.exe
+O:\Visual Studio\projects\InfosCEP\obj\Debug\InfosCEP.pdb
+O:\Visual Studio\projects\InfosCEP\bin\Debug\Newtonsoft.Json.dll
+O:\Visual Studio\projects\InfosCEP\bin\Debug\Newtonsoft.Json.xml
+O:\Visual Studio\projects\InfosCEP\obj\Debug\InfosCEP.csproj.Up2Date
+O:\Visual Studio\projects\InfosCEP\obj\Debug\InfosCEP.ConsultorDeCEP.resources
