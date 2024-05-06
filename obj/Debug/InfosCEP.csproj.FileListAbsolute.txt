@@ -11,3 +11,16 @@ O:\Visual Studio\projects\InfosCEP\bin\Debug\Newtonsoft.Json.dll
 O:\Visual Studio\projects\InfosCEP\bin\Debug\Newtonsoft.Json.xml
 O:\Visual Studio\projects\InfosCEP\obj\Debug\InfosCEP.csproj.Up2Date
 O:\Visual Studio\projects\InfosCEP\obj\Debug\InfosCEP.ConsultorDeCEP.resources
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\bin\Debug\InfosCEP.exe.config
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\bin\Debug\InfosCEP.exe
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\bin\Debug\InfosCEP.pdb
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\obj\Debug\InfosCEP.csproj.AssemblyReference.cache
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\obj\Debug\InfosCEP.ConsultorDeCEP.resources
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\obj\Debug\InfosCEP.Properties.Resources.resources
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\obj\Debug\InfosCEP.csproj.GenerateResource.cache
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\obj\Debug\InfosCEP.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\obj\Debug\InfosCEP.csproj.Up2Date
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\obj\Debug\InfosCEP.exe
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Consultor-de-CEP\obj\Debug\InfosCEP.pdb

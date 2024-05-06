@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace InfosCEP
 {
@@ -16,7 +17,7 @@ namespace InfosCEP
         public ConsultorDeCEP()
         {
             InitializeComponent();
-                
+
             LogradouroTextBox.Enabled = false;
             LogradouroTextBox.ReadOnly = true;
 
@@ -28,6 +29,11 @@ namespace InfosCEP
 
             UFTextBox.Enabled = false;
             UFTextBox.ReadOnly = true;
+
+            DDDTextBox.Enabled = false;
+            DDDTextBox.ReadOnly = true;
+
+            CEP.KeyPress += CEP_KeyPress;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -98,6 +104,7 @@ namespace InfosCEP
                 BairroTextBox.Text = endereco.Bairro;
                 LocalidadeTextBox.Text = endereco.Localidade;
                 UFTextBox.Text = endereco.UF;
+                DDDTextBox.Text = endereco.DDD;
 
             }
             catch(Exception ex)
@@ -116,6 +123,25 @@ namespace InfosCEP
         private void contextMenuStrip4_Opening(object sender, CancelEventArgs e)
         {
 
+        }
+
+        private void DDDTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CEP_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                BtnPesquisarCep.PerformClick();
+            }
         }
     }
 }

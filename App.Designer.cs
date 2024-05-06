@@ -45,11 +45,15 @@
             this.BtnPesquisarCep = new System.Windows.Forms.Button();
             this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.label4 = new System.Windows.Forms.Label();
+            this.DDDTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // CEP
             // 
+            this.CEP.BackColor = System.Drawing.Color.Gainsboro;
             this.CEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.CEP.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.CEP.Location = new System.Drawing.Point(231, 59);
             this.CEP.Multiline = true;
             this.CEP.Name = "CEP";
@@ -71,6 +75,7 @@
             // 
             this.doideira.AutoSize = true;
             this.doideira.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doideira.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.doideira.Location = new System.Drawing.Point(26, 62);
             this.doideira.Name = "doideira";
             this.doideira.Size = new System.Drawing.Size(190, 32);
@@ -82,6 +87,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.label1.Location = new System.Drawing.Point(100, 244);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 32);
@@ -93,6 +99,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.label2.Location = new System.Drawing.Point(110, 196);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 32);
@@ -104,6 +111,7 @@
             // 
             this.NomeDaRua.AutoSize = true;
             this.NomeDaRua.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NomeDaRua.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.NomeDaRua.Location = new System.Drawing.Point(19, 141);
             this.NomeDaRua.Name = "NomeDaRua";
             this.NomeDaRua.Size = new System.Drawing.Size(180, 32);
@@ -115,6 +123,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.label3.Location = new System.Drawing.Point(100, 297);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 32);
@@ -124,7 +133,9 @@
             // 
             // LogradouroTextBox
             // 
+            this.LogradouroTextBox.BackColor = System.Drawing.Color.Gainsboro;
             this.LogradouroTextBox.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogradouroTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.LogradouroTextBox.Location = new System.Drawing.Point(208, 138);
             this.LogradouroTextBox.Multiline = true;
             this.LogradouroTextBox.Name = "LogradouroTextBox";
@@ -134,7 +145,9 @@
             // 
             // BairroTextBox
             // 
+            this.BairroTextBox.BackColor = System.Drawing.Color.Gainsboro;
             this.BairroTextBox.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BairroTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BairroTextBox.Location = new System.Drawing.Point(208, 193);
             this.BairroTextBox.Multiline = true;
             this.BairroTextBox.Name = "BairroTextBox";
@@ -144,7 +157,9 @@
             // 
             // LocalidadeTextBox
             // 
+            this.LocalidadeTextBox.BackColor = System.Drawing.Color.Gainsboro;
             this.LocalidadeTextBox.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LocalidadeTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.LocalidadeTextBox.Location = new System.Drawing.Point(208, 244);
             this.LocalidadeTextBox.Multiline = true;
             this.LocalidadeTextBox.Name = "LocalidadeTextBox";
@@ -154,7 +169,9 @@
             // 
             // UFTextBox
             // 
+            this.UFTextBox.BackColor = System.Drawing.Color.Gainsboro;
             this.UFTextBox.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UFTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.UFTextBox.Location = new System.Drawing.Point(208, 297);
             this.UFTextBox.Multiline = true;
             this.UFTextBox.Name = "UFTextBox";
@@ -164,7 +181,8 @@
             // 
             // BtnPesquisarCep
             // 
-            this.BtnPesquisarCep.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnPesquisarCep.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnPesquisarCep.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnPesquisarCep.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.BtnPesquisarCep.Location = new System.Drawing.Point(456, 59);
             this.BtnPesquisarCep.Name = "BtnPesquisarCep";
@@ -186,11 +204,38 @@
             this.contextMenuStrip4.Size = new System.Drawing.Size(61, 4);
             this.contextMenuStrip4.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip4_Opening);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label4.Location = new System.Drawing.Point(110, 353);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 32);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "DDD: ";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // DDDTextBox
+            // 
+            this.DDDTextBox.BackColor = System.Drawing.Color.Gainsboro;
+            this.DDDTextBox.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DDDTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.DDDTextBox.Location = new System.Drawing.Point(208, 353);
+            this.DDDTextBox.Multiline = true;
+            this.DDDTextBox.Name = "DDDTextBox";
+            this.DDDTextBox.Size = new System.Drawing.Size(36, 35);
+            this.DDDTextBox.TabIndex = 14;
+            this.DDDTextBox.TextChanged += new System.EventHandler(this.DDDTextBox_TextChanged);
+            // 
             // ConsultorDeCEP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(596, 450);
+            this.Controls.Add(this.DDDTextBox);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.BtnPesquisarCep);
             this.Controls.Add(this.UFTextBox);
             this.Controls.Add(this.LocalidadeTextBox);
@@ -228,6 +273,8 @@
         private System.Windows.Forms.Button BtnPesquisarCep;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip3;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox DDDTextBox;
     }
 }
 
