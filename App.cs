@@ -93,11 +93,13 @@ namespace InfosCEP
 
         private async void BtnPesquisarCep_ClickAsync(object sender, EventArgs e)
         {
-            string cep = CEP.Text;
-            PesquisarCEP pesquisarCep = new PesquisarCEP();
-
             try
             {
+                Cursor.Current = Cursors.WaitCursor;
+
+                string cep = CEP.Text;
+                PesquisarCEP pesquisarCep = new PesquisarCEP();
+
                 InfosViaService endereco = await pesquisarCep.ConsultarCEP(cep);
 
                 LogradouroTextBox.Text = endereco.Logradouro;
@@ -110,6 +112,10 @@ namespace InfosCEP
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                Cursor.Current = Cursors.Default;
             }
 
 
