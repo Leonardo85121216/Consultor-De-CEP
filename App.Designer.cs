@@ -100,7 +100,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label2.Location = new System.Drawing.Point(110, 196);
+            this.label2.Location = new System.Drawing.Point(100, 196);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 32);
             this.label2.TabIndex = 5;
@@ -112,7 +112,7 @@
             this.NomeDaRua.AutoSize = true;
             this.NomeDaRua.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NomeDaRua.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.NomeDaRua.Location = new System.Drawing.Point(19, 141);
+            this.NomeDaRua.Location = new System.Drawing.Point(22, 141);
             this.NomeDaRua.Name = "NomeDaRua";
             this.NomeDaRua.Size = new System.Drawing.Size(180, 32);
             this.NomeDaRua.TabIndex = 6;
@@ -139,7 +139,7 @@
             this.LogradouroTextBox.Location = new System.Drawing.Point(208, 138);
             this.LogradouroTextBox.Multiline = true;
             this.LogradouroTextBox.Name = "LogradouroTextBox";
-            this.LogradouroTextBox.Size = new System.Drawing.Size(359, 35);
+            this.LogradouroTextBox.Size = new System.Drawing.Size(421, 35);
             this.LogradouroTextBox.TabIndex = 8;
             this.LogradouroTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -151,7 +151,7 @@
             this.BairroTextBox.Location = new System.Drawing.Point(208, 193);
             this.BairroTextBox.Multiline = true;
             this.BairroTextBox.Name = "BairroTextBox";
-            this.BairroTextBox.Size = new System.Drawing.Size(359, 35);
+            this.BairroTextBox.Size = new System.Drawing.Size(421, 35);
             this.BairroTextBox.TabIndex = 9;
             this.BairroTextBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -163,7 +163,7 @@
             this.LocalidadeTextBox.Location = new System.Drawing.Point(208, 244);
             this.LocalidadeTextBox.Multiline = true;
             this.LocalidadeTextBox.Name = "LocalidadeTextBox";
-            this.LocalidadeTextBox.Size = new System.Drawing.Size(359, 35);
+            this.LocalidadeTextBox.Size = new System.Drawing.Size(421, 35);
             this.LocalidadeTextBox.TabIndex = 10;
             this.LocalidadeTextBox.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -175,7 +175,7 @@
             this.UFTextBox.Location = new System.Drawing.Point(208, 297);
             this.UFTextBox.Multiline = true;
             this.UFTextBox.Name = "UFTextBox";
-            this.UFTextBox.Size = new System.Drawing.Size(359, 35);
+            this.UFTextBox.Size = new System.Drawing.Size(421, 35);
             this.UFTextBox.TabIndex = 11;
             this.UFTextBox.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
@@ -233,7 +233,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(596, 450);
+            this.ClientSize = new System.Drawing.Size(705, 450);
             this.Controls.Add(this.DDDTextBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.BtnPesquisarCep);

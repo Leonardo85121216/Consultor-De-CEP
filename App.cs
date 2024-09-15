@@ -98,6 +98,12 @@ namespace InfosCEP
                 Cursor.Current = Cursors.WaitCursor;
 
                 string cep = CEP.Text;
+                // Remove o hifen para que não haja erros
+                if (cep[5] == '-')
+                {
+                    cep = cep.Remove(5, 1);
+                }
+
                 PesquisarCEP pesquisarCep = new PesquisarCEP();
 
                 InfosViaService endereco = await pesquisarCep.ConsultarCEP(cep);

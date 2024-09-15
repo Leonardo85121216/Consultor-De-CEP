@@ -41,7 +41,7 @@ namespace InfosCEP
                 else
                 {
                     // Se a solicitação não foi bem sucedida, lança uma exceção com o código de status HTTP
-                    throw new Exception($"Erro ao fazer a solicitação: {response.StatusCode}");
+                    throw new Exception("O CEP FOI DIGITADO INCORRETEMENTE, TENTE NOVAMENTE");
                 }
             }
             catch (Exception ex)
